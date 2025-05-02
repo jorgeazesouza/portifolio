@@ -1,0 +1,22 @@
+.typewriter p {
+    overflow: hidden;
+    border-right: .15em solid var(--cor1);
+    white-space: nowrap;
+    animation: 
+        typing 3.5s steps(40, end), 
+        blink-caret .75s step-end infinite;
+}
+
+/* Faz o texto crescer da largura 0% até 100% */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 90% }
+  }
+
+/* Faz a barrinha do cursor piscar */ 
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--cor1); }
+}
+  
+  

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/text-animation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="header-name">
+                <h1>Joji_Aze</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="inicio-conteudo typewriter">
+                <h1>Jorge Azevedo</h1>
+                    <p>Desenvolvedor Front-End</p>
+                <picture>
+                    <a class="inicio-link" href="https://github.com/jorgeazesouza" target="_blank"><img src="img/logo-github.svg" alt="Logo GitHub"></a>
+                    <a class="inicio-link" href="https://www.linkedin.com/in/jorge-aze/" target="_blank"><img src="img/logo-linkedin.svg" alt=""></a>
+                </picture>
+            </div>
+            <div>
+                <picture>
+                    <source media="(max-width: 500px)" srcset="img/minha-foto-pq.png">
+                    <img class="inicio-img-eu" src="img/minha-foto.png" alt=" Minha foto">
+                </picture>
+            </div>
+        </section>
+        <section id="sobre">
+            <h1>Sobre mim</h1>
+
+            <div class="sobre-paragrafos">
+                <p>Meu nome é Jorge Azevedo e sou apaixonado por tecnologia, com foco atual em desenvolvimento Front-End. Iniciei meus estudos em programação durante o curso de Jogos Digitais e, desde então, venho aprimorando minhas habilidades em HTML, CSS, JavaScript, Git e GitHub. Também tenho conhecimento em Python e estou expandindo meu aprendizado para frameworks como React, Angular e Node.js.</p>
+                <p>Busco crescer continuamente como desenvolvedor, contribuindo com projetos criativos que gerem valor. Estou sempre em busca de novos aprendizados e aberto a desafios na área de desenvolvimento web.</p>
+            </div>
+
+            <a class="cv" href="arquivos/cv-jorge-azevedo.pdf" download="cv-jorge-azevedo.pdf" type="aplication/pdf">CV</a>
+        </section>
+        <section id="projetos">
+            <h1>Projetos</h1>
+            <nav>
+                <a href="#">Projeto 1</a>
+                <a href="#">Projeto 1</a>
+                <a href="#">Projeto 1</a>
+            </nav>
+        </section>
+        <section id="habilidades">
+            <h1>Habilidades</h1>
+            <p>HTML</p>
+            <P>CSS</P>
+            <p>JavaScript</p>
+            <p>Python</p>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>2025 - Jorge Azeved - Todos os direitos reservados</p>
+            <a href="#">Linkedin</a>
+            <a href="#">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
