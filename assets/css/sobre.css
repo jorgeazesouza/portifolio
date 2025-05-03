@@ -33,27 +33,33 @@
 }
 
 #sobre .cv {
-    text-decoration: none;
-    border: none;
-    background-color: var(--cor1);
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 1.1em;
-    box-shadow: 0px 0px 10px #05a6f79d;
+    display: flex;
+    gap: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #sobre .cv:hover {
-    text-decoration: none;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(28, 81, 138, 0.419);
+}
+
+#sobre .cv img {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
     border: none;
-    background-color: white;
-    color: var(--cor1);
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 30px;
-    font-size: 1.1em;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.504);
+    cursor: pointer;
+}
+
+#sobre .cv a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 1100px) {
