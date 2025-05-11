@@ -25,7 +25,18 @@
     border-radius: 17px;
 }
 
-.projeto1 h2, p {
+.projeto1 a {
+    text-decoration: none;
+}
+
+.projeto1 > a > h2 {
+    color: white;
+    padding-top: 8pt;
+    text-align: left;
+    padding: 15px;
+}
+
+.projeto1 > a > p {
     color: white;
     padding-top: 8pt;
     text-align: left;
