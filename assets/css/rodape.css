@@ -1,0 +1,11 @@
+#rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+#rodape > nav > a {
+    padding-left: 15px;
+}
