@@ -1,6 +1,7 @@
 const html = document.querySelector('.html');
 const css = document.querySelector('.css');
 const javascript = document.querySelector('.javascript');
+const python = document.querySelector('.python');
 const text = document.querySelector('#hab-text');
 
 html.addEventListener('mouseenter', function() {
@@ -33,9 +34,23 @@ javascript.addEventListener('mouseenter', function() {
     javascript.src = 'img/logos-habilidades/javascript-cor.svg';
     text.innerHTML = '<h3>Javascript</h3><br>';
     text.innerHTML += '<p>Linguagem de programação muito usada para páginas web.</p><br>';
+    text.innerHTML += '<p>Atualmente estou estudando JavaScript e já compreendo os conceitos iniciais da linguagem.</p><br>';
+    text.innerHTML += '<p>Tenho praticado bastante lógica de programação e fundamentos como arrays, objetos, funções, operadores e outras estruturas básicas, buscando evoluir constantemente na linguagem.</p>';
 });
 
 javascript.addEventListener('mouseleave', function() {
     javascript.src = 'img/logos-habilidades/javascript-logo.svg';
+    text.innerHTML = 'Passe o mouse por cima para saber mais';
+});
+
+python.addEventListener('mouseenter', function() {
+    python.src = 'img/logos-habilidades/python-cor.svg';
+    text.innerHTML = '<h3>Python</h3><br>';
+    text.innerHTML += '<p>Tenho 3 meses de experiência com a linguagem Python, durante os quais pratiquei bastante a lógica de programação e resolvi dezenas de exercícios.</p><br>';
+    text.innerHTML += '<p>Estou familiarizado com conceitos como variáveis, estruturas de repetição, condicionais e manipulação de dados.</p>';
+});
+
+python.addEventListener('mouseleave', function() {
+    python.src = 'img/logos-habilidades/python-logo.svg';
     text.innerHTML = 'Passe o mouse por cima para saber mais';
 });
