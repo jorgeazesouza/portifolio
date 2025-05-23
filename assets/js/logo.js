@@ -23,7 +23,7 @@ css.addEventListener('mouseenter', function() {
     css.src = 'img/logos-habilidades/css-cor.svg';
     text.innerHTML = '<h3>CSS 3</h3><br>';
     text.innerHTML += '<p>Linguagem de marcação usada para estilizar páginas web.</p><br>';
-    text.innerHTML += '<p>Tenho 4 meses experiência, criando páginas responsivas e semânticas.</p><br>';
+    text.innerHTML += '<p>Tenho 4 meses experiência, criando páginas estilizadas e responsivas.</p><br>';
     text.innerHTML += '<p>Utilizado em todos os meus projetos no Curso em Vídeo e no portfólio atual.</p>';
 });
 

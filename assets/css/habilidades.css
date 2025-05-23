@@ -21,7 +21,17 @@
 .img {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 3em;
+}
+
+.imagens-config {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagens-config > div {
+    padding-left: 5px;
 }
 
 .imagens-config > img {
@@ -101,4 +111,23 @@
     text-align: center;
     font-size: 22px;
     line-height: 1;
+}
+
+@media screen and (max-width: 850px) {
+    .imagens-config {
+        display: flex;
+        flex-direction: column;
+    }
+    .img > p {
+        font-size: 1em;
+        width: 90vw;
+    }
+    #habilidades {
+    height: 600px;
+    background-image: linear-gradient(95deg, var(--cor1), var(--cor2));
+    padding: 2em;
+    }
+    #rodape > p {
+        font-size: 12px;
+    }
 }
